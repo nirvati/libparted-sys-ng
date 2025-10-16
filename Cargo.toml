@@ -1,16 +1,17 @@
 [package]
-name = "libparted-sys"
-version = "0.3.2"
-authors = ["Chris Holcombe <xfactor973@gmail.com>"]
+name = "libparted-sys-slim"
+version = "0.4.0"
+authors = ["Aaron Dewes <aaron@nirvati.de>"]
 license = "MIT"
 description = "libparted bindings"
-documentation = "https://docs.rs/libparted-sys"
-homepage = "https://github.com/cholcombe973/libparted-sys"
+documentation = "https://docs.rs/libparted-sys-slim"
+homepage = "https://github.com/nirvati/libparted-sys-slim"
 keywords = ["parted", "libparted"]
+edition = "2024"
 
 
 [build-dependencies]
-bindgen = "~0.65"
+bindgen = "~0.72"
 
 [dependencies]
 
